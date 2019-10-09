@@ -1,0 +1,5 @@
+.idea
+/server-package/opt/content_server/
+/client-package/opt/content_client/
+/content-client.deb
+/content-server.deb

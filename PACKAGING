@@ -1,0 +1,9 @@
+Server (runs on each camera node):
+
+Copy fs-notifier.py and content-server to server-package/opt/content_server
+dpkg-deb --build server-package content-server.deb
+
+Client (runs on the central server/access point):
+
+Copy content-client.py to client-package/opt/content_client
+dpkg-deb --build client-package content-client.deb
